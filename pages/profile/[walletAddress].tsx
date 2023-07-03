@@ -22,7 +22,7 @@ export default function ProfilePage() {
       {address ? (
         <Flex>
           <Flex flexDirection={'column'} mr={8} p={10}>
-            <Avatar size={'2xl'} mr={4} />
+            <Avatar size={'2xl'} m={4} p={4} />
             <Text
               fontSize={'sm'}
               border={'1px solid black'}
