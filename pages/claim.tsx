@@ -30,7 +30,7 @@ export default function ClaimPage() {
     <Container maxW={'1440px'} h={'80vh'}>
       <SimpleGrid columns={2} spacing={10}>
         <Flex>
-          <MediaRenderer src={CLAIM_TOKEN_IMAGE} height="60%" width="60%" />
+          <MediaRenderer src={CLAIM_TOKEN_IMAGE} height="100%" width="100%" />
         </Flex>
         <Flex flexDirection={'column'} justifyContent={'center'}>
           <Stack spacing={4}>
